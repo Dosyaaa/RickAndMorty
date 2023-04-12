@@ -37,6 +37,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38C5819C29E6F14B00941E5C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		38C5819D29E6F15300941E5C /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		38C5819E29E6F16000941E5C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		38C5819F29E6F16E00941E5C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		CE2D8A9829E1ADF2007FBACC = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +84,10 @@
 		CE2D8AA329E1ADF2007FBACC /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
+				38C5819F29E6F16E00941E5C /* Services */,
+				38C5819E29E6F16000941E5C /* Models */,
+				38C5819D29E6F15300941E5C /* Workers */,
+				38C5819C29E6F14B00941E5C /* Scenes */,
 				CE2D8AA429E1ADF2007FBACC /* AppDelegate.swift */,
 				CE2D8AA629E1ADF2007FBACC /* SceneDelegate.swift */,
 				CE2D8AA829E1ADF2007FBACC /* ViewController.swift */,
