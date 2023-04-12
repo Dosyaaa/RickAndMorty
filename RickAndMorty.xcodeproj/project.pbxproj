@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38C581A129E6F47100941E5C /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C581A029E6F47100941E5C /* NetworkClient.swift */; };
+		38C581A329E6F47F00941E5C /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C581A229E6F47F00941E5C /* Character.swift */; };
+		38C581A529E6F48D00941E5C /* CharactersWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C581A429E6F48D00941E5C /* CharactersWorker.swift */; };
 		CE2D8AA529E1ADF2007FBACC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D8AA429E1ADF2007FBACC /* AppDelegate.swift */; };
 		CE2D8AA729E1ADF2007FBACC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D8AA629E1ADF2007FBACC /* SceneDelegate.swift */; };
 		CE2D8AA929E1ADF2007FBACC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D8AA829E1ADF2007FBACC /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38C581A029E6F47100941E5C /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		38C581A229E6F47F00941E5C /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		38C581A429E6F48D00941E5C /* CharactersWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersWorker.swift; sourceTree = "<group>"; };
 		CE2D8AA129E1ADF2007FBACC /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2D8AA429E1ADF2007FBACC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE2D8AA629E1ADF2007FBACC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +46,7 @@
 		38C5819C29E6F14B00941E5C /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				CE2D8AA829E1ADF2007FBACC /* ViewController.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -47,6 +54,7 @@
 		38C5819D29E6F15300941E5C /* Workers */ = {
 			isa = PBXGroup;
 			children = (
+				38C581A429E6F48D00941E5C /* CharactersWorker.swift */,
 			);
 			path = Workers;
 			sourceTree = "<group>";
@@ -54,6 +62,7 @@
 		38C5819E29E6F16000941E5C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				38C581A229E6F47F00941E5C /* Character.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -61,6 +70,7 @@
 		38C5819F29E6F16E00941E5C /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				38C581A029E6F47100941E5C /* NetworkClient.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -90,7 +100,6 @@
 				38C5819C29E6F14B00941E5C /* Scenes */,
 				CE2D8AA429E1ADF2007FBACC /* AppDelegate.swift */,
 				CE2D8AA629E1ADF2007FBACC /* SceneDelegate.swift */,
-				CE2D8AA829E1ADF2007FBACC /* ViewController.swift */,
 				CE2D8AAA29E1ADF2007FBACC /* Main.storyboard */,
 				CE2D8AAD29E1ADF5007FBACC /* Assets.xcassets */,
 				CE2D8AAF29E1ADF5007FBACC /* LaunchScreen.storyboard */,
@@ -171,8 +180,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE2D8AA929E1ADF2007FBACC /* ViewController.swift in Sources */,
+				38C581A529E6F48D00941E5C /* CharactersWorker.swift in Sources */,
 				CE2D8AA529E1ADF2007FBACC /* AppDelegate.swift in Sources */,
+				38C581A329E6F47F00941E5C /* Character.swift in Sources */,
 				CE2D8AA729E1ADF2007FBACC /* SceneDelegate.swift in Sources */,
+				38C581A129E6F47100941E5C /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
