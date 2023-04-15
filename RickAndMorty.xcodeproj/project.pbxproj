@@ -11,6 +11,7 @@
 		38C581A329E6F47F00941E5C /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C581A229E6F47F00941E5C /* Character.swift */; };
 		38C581A529E6F48D00941E5C /* CharactersWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C581A429E6F48D00941E5C /* CharactersWorker.swift */; };
 		A65E29C329E9BADA00CE8BD9 /* UIColorTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E29C229E9BADA00CE8BD9 /* UIColorTabBar.swift */; };
+		A65E29C529E9D9F100CE8BD9 /* SeriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E29C429E9D9F100CE8BD9 /* SeriesViewController.swift */; };
 		CE2D8AA529E1ADF2007FBACC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D8AA429E1ADF2007FBACC /* AppDelegate.swift */; };
 		CE2D8AA729E1ADF2007FBACC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D8AA629E1ADF2007FBACC /* SceneDelegate.swift */; };
 		CE2D8AA929E1ADF2007FBACC /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D8AA829E1ADF2007FBACC /* TabBarViewController.swift */; };
@@ -23,6 +24,7 @@
 		38C581A229E6F47F00941E5C /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		38C581A429E6F48D00941E5C /* CharactersWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersWorker.swift; sourceTree = "<group>"; };
 		A65E29C229E9BADA00CE8BD9 /* UIColorTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTabBar.swift; sourceTree = "<group>"; };
+		A65E29C429E9D9F100CE8BD9 /* SeriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesViewController.swift; sourceTree = "<group>"; };
 		CE2D8AA129E1ADF2007FBACC /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2D8AA429E1ADF2007FBACC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE2D8AA629E1ADF2007FBACC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 			children = (
 				CE2D8AA829E1ADF2007FBACC /* TabBarViewController.swift */,
 				A65E29C229E9BADA00CE8BD9 /* UIColorTabBar.swift */,
+				A65E29C429E9D9F100CE8BD9 /* SeriesViewController.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				38C581A329E6F47F00941E5C /* Character.swift in Sources */,
 				CE2D8AA729E1ADF2007FBACC /* SceneDelegate.swift in Sources */,
 				38C581A129E6F47100941E5C /* NetworkClient.swift in Sources */,
+				A65E29C529E9D9F100CE8BD9 /* SeriesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
