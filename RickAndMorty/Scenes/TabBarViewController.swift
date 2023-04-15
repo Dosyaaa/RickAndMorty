@@ -12,34 +12,30 @@ class TabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        setTabBarAppearance()
-    }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         setTabBarAppearance()
         
-        let item1 = UITabBarItem(
+        let itemPerson = UITabBarItem(
             title: "Characters",
             image: UIImage(systemName: "person"),
             selectedImage: UIImage(systemName: "person.fill")
         )
 
-        let item2 = UITabBarItem(
+        let itemSeries = UITabBarItem(
             title: "Series",
             image: UIImage(systemName: "play.laptopcomputer"),
             selectedImage: UIImage(systemName: "play.laptopcomputer")
         )
         
-        let item3 = UITabBarItem(
+        let itemSettings = UITabBarItem(
             title: "Settings",
             image: UIImage(systemName: "slider.horizontal.3"),
             selectedImage: UIImage(systemName: "slider.horizontal.3")
         )
+        
     }
     
     func setTabBarAppearance() {
