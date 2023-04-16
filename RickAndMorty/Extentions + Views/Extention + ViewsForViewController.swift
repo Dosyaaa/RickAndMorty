@@ -7,30 +7,14 @@
 
 import UIKit
 
-private let buttonRegister = UIButton(frame:
-                                        CGRect(x: 95, y: 630,
-                                               width: 250, height: 45))
-private let forgotPassword = UIButton(frame:
-                                        CGRect(x: 295, y: 500,
-                                               width: 110, height: 30))
-private let emailTF = UITextField(frame:
-                                    CGRect(x: 20, y: 360,
-                                           width: 390, height: 40))
-private let passwordTF = UITextField(frame:
-                                        CGRect(x: 20, y: 460,
-                                               width: 390, height: 40))
-private let buttonSignIn = UIButton(frame:
-                                        CGRect(x: 95, y: 570,
-                                               width: 250, height: 45))
-private let labelEntry = UILabel(frame:
-                                    CGRect(x: 25, y: 315,
-                                           width: 200, height: 40))
-private let labelPassword = UILabel(frame:
-                                        CGRect(x: 25, y: 420,
-                                               width: 100, height: 40))
-private let nameLabel = UILabel(frame:
-                                    CGRect(x:  122,y: 230,
-                                           width: 300, height: 50))
+private let buttonRegister = UIButton()
+private let forgotPassword = UIButton()
+private let emailTF = UITextField()
+private let passwordTF = UITextField()
+private let buttonSignIn = UIButton()
+private let labelEntry = UILabel()
+private let nameLabel = UILabel()
+private let labelPasswordd = UILabel()
 
 extension ViewController {
     
@@ -38,7 +22,7 @@ extension ViewController {
         view.addSubview(passwordTF)
         view.addSubview(emailTF)
         view.addSubview(labelEntry)
-        view.addSubview(labelPassword)
+        view.addSubview(labelPasswordd)
         view.addSubview(nameLabel)
         
         emailTF.placeholder = "Email"
@@ -48,18 +32,52 @@ extension ViewController {
         passwordTF.borderStyle = .roundedRect
         
         labelEntry.tintColor = .gray
-        labelEntry.text = "Employeed / id"
+        labelEntry.text = "Employeed / Email"
         labelEntry.font = UIFont.systemFont(ofSize: 20)
         
-        labelPassword.tintColor = .black
-        labelPassword.text = "Password"
-        labelPassword.font = UIFont.systemFont(ofSize: 20)
+        labelPasswordd.tintColor = .black
+        labelPasswordd.text = "Password"
+        labelPasswordd.font = UIFont.systemFont(ofSize: 20)
         
         nameLabel.tintColor = .black
         nameLabel.text = "Rick And Morty"
         nameLabel.font = UIFont.systemFont(ofSize: 30)
-       
         
+        emailTF.translatesAutoresizingMaskIntoConstraints = false
+        emailTF.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -20).isActive = true
+        emailTF.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20).isActive = true
+        emailTF.topAnchor.constraint(equalTo: view.topAnchor, constant: 335).isActive = true
+        emailTF.heightAnchor.constraint(equalToConstant: 35).isActive = true
+        emailTF.widthAnchor.constraint(equalToConstant: 390).isActive = true
+        
+        passwordTF.translatesAutoresizingMaskIntoConstraints = false
+        passwordTF.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -20).isActive = true
+        passwordTF.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20).isActive = true
+        passwordTF.topAnchor.constraint(equalTo: view.topAnchor, constant: 420).isActive = true
+        passwordTF.heightAnchor.constraint(equalToConstant: 35).isActive = true
+        passwordTF.widthAnchor.constraint(equalToConstant: 390).isActive = true
+        
+        labelEntry.translatesAutoresizingMaskIntoConstraints = false
+        labelEntry.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -25).isActive = true
+        labelEntry.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20).isActive = true
+        labelEntry.topAnchor.constraint(equalTo: view.topAnchor, constant: 300).isActive = true
+        labelEntry.heightAnchor.constraint(equalToConstant: 35).isActive = true
+        labelEntry.widthAnchor.constraint(equalToConstant: 390).isActive = true
+        
+        labelPasswordd.translatesAutoresizingMaskIntoConstraints = false
+        labelPasswordd.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -25).isActive = true
+        labelPasswordd.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20).isActive = true
+        labelPasswordd.topAnchor.constraint(equalTo: view.topAnchor, constant: 385).isActive = true
+        labelPasswordd.heightAnchor.constraint(equalToConstant: 35).isActive = true
+        labelPasswordd.widthAnchor.constraint(equalToConstant: 390).isActive = true
+        
+        nameLabel.translatesAutoresizingMaskIntoConstraints = false
+        nameLabel.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -25).isActive = true
+        nameLabel.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 25).isActive = true
+        nameLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 200).isActive = true
+        nameLabel.heightAnchor.constraint(equalToConstant: 35).isActive = true
+        nameLabel.widthAnchor.constraint(equalToConstant: 390).isActive = true
+        nameLabel.textAlignment = .center
     }
 }
 
@@ -72,9 +90,7 @@ extension ViewController {
         buttonSignIn.layer.cornerRadius = 10
         buttonSignIn.setTitle("Sign In", for: .normal)
         buttonSignIn.backgroundColor = .blue
-        buttonSignIn.addTarget(self,
-                               action: #selector(goToMenu),
-                               for: .touchUpInside)
+        buttonSignIn.addTarget(self, action: #selector(goToMenu), for: .touchUpInside)
         
         buttonRegister.layer.cornerRadius = 10
         buttonRegister.setTitle("Sign Up ", for: .normal)
@@ -82,6 +98,25 @@ extension ViewController {
                                  action: #selector(tapOnButton),
                                  for: .touchUpInside)
         buttonRegister.backgroundColor = .systemYellow
+        buttonRegister.translatesAutoresizingMaskIntoConstraints = false
+        buttonRegister.rightAnchor.constraint(equalTo:
+                                                view.rightAnchor,
+                                              constant: -95).isActive = true
+        buttonRegister.leftAnchor.constraint(equalTo:
+                                                view.leftAnchor,
+                                             constant: 100).isActive = true
+        buttonRegister.topAnchor.constraint(equalTo: view.topAnchor, constant: 590).isActive = true
+        buttonRegister.heightAnchor.constraint(equalToConstant: 40).isActive = true
+        buttonRegister.widthAnchor.constraint(equalToConstant: 250).isActive = true
+        
+        buttonSignIn.translatesAutoresizingMaskIntoConstraints = false
+        buttonSignIn.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -95).isActive = true
+        buttonSignIn.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 100).isActive = true
+        buttonSignIn.topAnchor.constraint(equalTo: view.topAnchor, constant: 520).isActive = true
+        buttonSignIn.heightAnchor.constraint(equalToConstant: 40).isActive = true
+        buttonSignIn.widthAnchor.constraint(equalToConstant: 250).isActive = true
+        
+        
     }
     
     func forgotPasswordView() {
@@ -90,26 +125,31 @@ extension ViewController {
         forgotPassword.setTitle("Forgot password?", for: .normal)
         forgotPassword.setTitleColor(.systemBlue, for: .normal)
         forgotPassword.titleLabel?.font = UIFont.systemFont(ofSize: 13)
-        forgotPassword.addTarget(self,
-                                 action: #selector(addTap),
-                                 for: .touchUpInside)
+        forgotPassword.addTarget(self, action: #selector(addTap), for: .touchUpInside)
+        
+        forgotPassword.translatesAutoresizingMaskIntoConstraints = false
+        forgotPassword.rightAnchor.constraint(equalTo: view.rightAnchor, constant: 75).isActive = true
+        forgotPassword.topAnchor.constraint(equalTo: view.topAnchor, constant: 450).isActive = true
+        forgotPassword.heightAnchor.constraint(equalToConstant: 40).isActive = true
+        forgotPassword.widthAnchor.constraint(equalToConstant: 300).isActive = true
     }
     
     @objc
     func addTap() {
         
-        let seco = ForgotPasswordViewController()
-        let vc = UINavigationController(rootViewController:seco)
-        present(vc, animated: true)
+        let gotoForgotPassword = ForgotPasswordViewController()
+        let vcForgotPassword = UINavigationController(rootViewController: gotoForgotPassword)
+        vcForgotPassword.modalPresentationStyle = .fullScreen
+        present(vcForgotPassword, animated: true)
     }
     
     @objc
     func tapOnButton() {
         let register = RegisterViewController()
-        let vc = UINavigationController(rootViewController: register )
-        present(vc, animated: true)
+        let registervc = UINavigationController(rootViewController: register )
+        registervc.modalPresentationStyle = .fullScreen
+        present(registervc, animated: true)
     }
-    
     @objc
     func goToMenu() {
         func isTextFieldFilled(textField: UITextField) {
@@ -121,8 +161,9 @@ extension ViewController {
                 textField.layer.borderWidth = 0
             }
         }
-        
         isTextFieldFilled(textField: emailTF)
         isTextFieldFilled(textField: passwordTF)
     }
-    }
+}
+
+
