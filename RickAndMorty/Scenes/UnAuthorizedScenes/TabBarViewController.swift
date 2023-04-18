@@ -17,8 +17,6 @@ class TabBarViewController: UITabBarController {
         super.viewWillAppear(animated)
         
         setTabBarAppearance()
-
-        let window2 = SeriesViewController()
         
         let itemPerson = UITabBarItem(
             title: "Characters",
@@ -37,7 +35,7 @@ class TabBarViewController: UITabBarController {
             image: UIImage(systemName: "slider.horizontal.3"),
             selectedImage: UIImage(systemName: "slider.horizontal.3")
         )
-    
+   
     }
     
     func setTabBarAppearance() {

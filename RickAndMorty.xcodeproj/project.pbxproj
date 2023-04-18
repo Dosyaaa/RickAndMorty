@@ -11,7 +11,13 @@
 		38C581A329E6F47F00941E5C /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C581A229E6F47F00941E5C /* Character.swift */; };
 		38C581A529E6F48D00941E5C /* CharactersWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C581A429E6F48D00941E5C /* CharactersWorker.swift */; };
 		A65E29C329E9BADA00CE8BD9 /* UIColorTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E29C229E9BADA00CE8BD9 /* UIColorTabBar.swift */; };
-		A65E29C529E9D9F100CE8BD9 /* SeriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E29C429E9D9F100CE8BD9 /* SeriesViewController.swift */; };
+		A65E29C529E9D9F100CE8BD9 /* SeasonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E29C429E9D9F100CE8BD9 /* SeasonsViewController.swift */; };
+		A65E29CB29EAEDA900CE8BD9 /* Extension + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E29CA29EAEDA900CE8BD9 /* Extension + UIView.swift */; };
+		A65E29D129EB5CC800CE8BD9 /* SeasonsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E29D029EB5CC800CE8BD9 /* SeasonsCollectionViewCell.swift */; };
+		A65E29D329EB6C5600CE8BD9 /* SeriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E29D229EB6C5600CE8BD9 /* SeriesViewController.swift */; };
+		A65E29D529EB6FAE00CE8BD9 /* SeriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E29D429EB6FAE00CE8BD9 /* SeriesCollectionViewCell.swift */; };
+		A65E29D729EB878F00CE8BD9 /* informationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E29D629EB878F00CE8BD9 /* informationViewController.swift */; };
+		A65E29D929EB890300CE8BD9 /* InformationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E29D829EB890300CE8BD9 /* InformationCollectionViewCell.swift */; };
 		CE2D8AA529E1ADF2007FBACC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D8AA429E1ADF2007FBACC /* AppDelegate.swift */; };
 		CE2D8AA729E1ADF2007FBACC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D8AA629E1ADF2007FBACC /* SceneDelegate.swift */; };
 		CE2D8AA929E1ADF2007FBACC /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D8AA829E1ADF2007FBACC /* TabBarViewController.swift */; };
@@ -24,7 +30,13 @@
 		38C581A229E6F47F00941E5C /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		38C581A429E6F48D00941E5C /* CharactersWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersWorker.swift; sourceTree = "<group>"; };
 		A65E29C229E9BADA00CE8BD9 /* UIColorTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTabBar.swift; sourceTree = "<group>"; };
-		A65E29C429E9D9F100CE8BD9 /* SeriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesViewController.swift; sourceTree = "<group>"; };
+		A65E29C429E9D9F100CE8BD9 /* SeasonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonsViewController.swift; sourceTree = "<group>"; };
+		A65E29CA29EAEDA900CE8BD9 /* Extension + UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIView.swift"; sourceTree = "<group>"; };
+		A65E29D029EB5CC800CE8BD9 /* SeasonsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonsCollectionViewCell.swift; sourceTree = "<group>"; };
+		A65E29D229EB6C5600CE8BD9 /* SeriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesViewController.swift; sourceTree = "<group>"; };
+		A65E29D429EB6FAE00CE8BD9 /* SeriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		A65E29D629EB878F00CE8BD9 /* informationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = informationViewController.swift; sourceTree = "<group>"; };
+		A65E29D829EB890300CE8BD9 /* InformationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationCollectionViewCell.swift; sourceTree = "<group>"; };
 		CE2D8AA129E1ADF2007FBACC /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE2D8AA429E1ADF2007FBACC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE2D8AA629E1ADF2007FBACC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,9 +60,8 @@
 		38C5819C29E6F14B00941E5C /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				CE2D8AA829E1ADF2007FBACC /* TabBarViewController.swift */,
-				A65E29C229E9BADA00CE8BD9 /* UIColorTabBar.swift */,
-				A65E29C429E9D9F100CE8BD9 /* SeriesViewController.swift */,
+				A65E29CF29EB5B9D00CE8BD9 /* UnAuthorizedScenes */,
+				A65E29CC29EB5ADD00CE8BD9 /* AuthorizedScenes */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -84,6 +95,7 @@
 			children = (
 				CE2D8AA429E1ADF2007FBACC /* AppDelegate.swift */,
 				CE2D8AA629E1ADF2007FBACC /* SceneDelegate.swift */,
+				A65E29CA29EAEDA900CE8BD9 /* Extension + UIView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -96,6 +108,44 @@
 				CE2D8AAD29E1ADF5007FBACC /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		A65E29CC29EB5ADD00CE8BD9 /* AuthorizedScenes */ = {
+			isa = PBXGroup;
+			children = (
+				A65E29CD29EB5B4E00CE8BD9 /* Components */,
+				A65E29CE29EB5B6900CE8BD9 /* WorkFlow */,
+			);
+			path = AuthorizedScenes;
+			sourceTree = "<group>";
+		};
+		A65E29CD29EB5B4E00CE8BD9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A65E29D029EB5CC800CE8BD9 /* SeasonsCollectionViewCell.swift */,
+				A65E29D429EB6FAE00CE8BD9 /* SeriesCollectionViewCell.swift */,
+				A65E29D829EB890300CE8BD9 /* InformationCollectionViewCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A65E29CE29EB5B6900CE8BD9 /* WorkFlow */ = {
+			isa = PBXGroup;
+			children = (
+				A65E29C429E9D9F100CE8BD9 /* SeasonsViewController.swift */,
+				A65E29D229EB6C5600CE8BD9 /* SeriesViewController.swift */,
+				A65E29D629EB878F00CE8BD9 /* informationViewController.swift */,
+			);
+			path = WorkFlow;
+			sourceTree = "<group>";
+		};
+		A65E29CF29EB5B9D00CE8BD9 /* UnAuthorizedScenes */ = {
+			isa = PBXGroup;
+			children = (
+				CE2D8AA829E1ADF2007FBACC /* TabBarViewController.swift */,
+				A65E29C229E9BADA00CE8BD9 /* UIColorTabBar.swift */,
+			);
+			path = UnAuthorizedScenes;
 			sourceTree = "<group>";
 		};
 		CE2D8A9829E1ADF2007FBACC = {
@@ -200,11 +250,17 @@
 				CE2D8AA929E1ADF2007FBACC /* TabBarViewController.swift in Sources */,
 				38C581A529E6F48D00941E5C /* CharactersWorker.swift in Sources */,
 				CE2D8AA529E1ADF2007FBACC /* AppDelegate.swift in Sources */,
+				A65E29D529EB6FAE00CE8BD9 /* SeriesCollectionViewCell.swift in Sources */,
 				A65E29C329E9BADA00CE8BD9 /* UIColorTabBar.swift in Sources */,
 				38C581A329E6F47F00941E5C /* Character.swift in Sources */,
+				A65E29CB29EAEDA900CE8BD9 /* Extension + UIView.swift in Sources */,
 				CE2D8AA729E1ADF2007FBACC /* SceneDelegate.swift in Sources */,
 				38C581A129E6F47100941E5C /* NetworkClient.swift in Sources */,
-				A65E29C529E9D9F100CE8BD9 /* SeriesViewController.swift in Sources */,
+				A65E29D929EB890300CE8BD9 /* InformationCollectionViewCell.swift in Sources */,
+				A65E29D729EB878F00CE8BD9 /* informationViewController.swift in Sources */,
+				A65E29D329EB6C5600CE8BD9 /* SeriesViewController.swift in Sources */,
+				A65E29C529E9D9F100CE8BD9 /* SeasonsViewController.swift in Sources */,
+				A65E29D129EB5CC800CE8BD9 /* SeasonsCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
