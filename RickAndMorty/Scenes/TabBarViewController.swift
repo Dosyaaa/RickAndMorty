@@ -18,6 +18,7 @@ class TabBarViewController: UITabBarController {
         
         setTabBarAppearance()
         
+        
         let itemPerson = UITabBarItem(
             title: "Characters",
             image: UIImage(systemName: "person"),
