@@ -19,6 +19,8 @@
 		CE2D8AA929E1ADF2007FBACC /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D8AA829E1ADF2007FBACC /* TabBarViewController.swift */; };
 		CE2D8AAE29E1ADF5007FBACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2D8AAD29E1ADF5007FBACC /* Assets.xcassets */; };
 		CE2D8AB129E1ADF5007FBACC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2D8AAF29E1ADF5007FBACC /* LaunchScreen.storyboard */; };
+		CEE1874129F95AC800249467 /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE1874029F95AC800249467 /* CharactersViewController.swift */; };
+		CEE1874329F95B1100249467 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE1874229F95B1100249467 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		CE2D8AAD29E1ADF5007FBACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE2D8AB029E1ADF5007FBACC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE2D8AB229E1ADF5007FBACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE1874029F95AC800249467 /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
+		CEE1874229F95B1100249467 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 				463AB00729F5BAE5008CB075 /* Favorites */,
 				CE2D8AA829E1ADF2007FBACC /* TabBarViewController.swift */,
 				A65E29C229E9BADA00CE8BD9 /* UIColorTabBar.swift */,
+				CEE1874029F95AC800249467 /* CharactersViewController.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -63,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				38C581A429E6F48D00941E5C /* CharactersWorker.swift */,
+				CEE1874229F95B1100249467 /* CollectionViewCell.swift */,
 			);
 			path = Workers;
 			sourceTree = "<group>";
@@ -219,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE1874329F95B1100249467 /* CollectionViewCell.swift in Sources */,
 				CE2D8AA929E1ADF2007FBACC /* TabBarViewController.swift in Sources */,
 				463AB00A29F5BB0D008CB075 /* FavoritesTableViewCell.swift in Sources */,
 				38C581A529E6F48D00941E5C /* CharactersWorker.swift in Sources */,
@@ -229,6 +236,7 @@
 				CE2D8AA729E1ADF2007FBACC /* SceneDelegate.swift in Sources */,
 				463AB00C29F5BB43008CB075 /* FavoritesViewController.swift in Sources */,
 				38C581A129E6F47100941E5C /* NetworkClient.swift in Sources */,
+				CEE1874129F95AC800249467 /* CharactersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
