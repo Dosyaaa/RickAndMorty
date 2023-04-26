@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 // MARK: - RickandmortyCharacter
 struct RickandMortyCharacter: Codable {
     let info: Info
@@ -46,5 +47,6 @@ struct Location: Codable {
     let url: String
 }
 // MARK: - END
+
 
 
