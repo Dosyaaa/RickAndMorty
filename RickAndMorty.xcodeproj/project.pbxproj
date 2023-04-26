@@ -18,6 +18,7 @@
 		0424ABB429F95B5B009BD7DF /* Extentions + RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424ABB329F95B5B009BD7DF /* Extentions + RegisterViewController.swift */; };
 		0424ABB629F95CC4009BD7DF /* GoogleService-Info-5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0424ABB529F95CC4009BD7DF /* GoogleService-Info-5.plist */; };
 		38AABF2C29F95F1100883A4F /* Settings in Resources */ = {isa = PBXBuildFile; fileRef = 38AABF2B29F95F1100883A4F /* Settings */; };
+		38AABF2E29F9640100883A4F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AABF2D29F9640100883A4F /* Colors.swift */; };
 		38C581A129E6F47100941E5C /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C581A029E6F47100941E5C /* NetworkClient.swift */; };
 		38C581A329E6F47F00941E5C /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C581A229E6F47F00941E5C /* Character.swift */; };
 		38C581A529E6F48D00941E5C /* CharactersWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C581A429E6F48D00941E5C /* CharactersWorker.swift */; };
@@ -46,6 +47,7 @@
 		0424ABB329F95B5B009BD7DF /* Extentions + RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extentions + RegisterViewController.swift"; sourceTree = "<group>"; };
 		0424ABB529F95CC4009BD7DF /* GoogleService-Info-5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-5.plist"; sourceTree = "<group>"; };
 		38AABF2B29F95F1100883A4F /* Settings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Settings; path = RickAndMorty/Settings; sourceTree = SOURCE_ROOT; };
+		38AABF2D29F9640100883A4F /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		38C581A029E6F47100941E5C /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		38C581A229E6F47F00941E5C /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		38C581A429E6F48D00941E5C /* CharactersWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersWorker.swift; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 		CE2D8AA329E1ADF2007FBACC /* RickAndMorty */ = {
 			isa = PBXGroup;
 			children = (
+				38AABF2D29F9640100883A4F /* Colors.swift */,
 				38DD7D2129F418BA002EA375 /* Extensions.swift */,
 				0424ABAA29F95AD5009BD7DF /* Constants */,
 				38C5819F29E6F16E00941E5C /* Services */,
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE1874329F95B1100249467 /* CollectionViewCell.swift in Sources */,
+				38AABF2E29F9640100883A4F /* Colors.swift in Sources */,
 				CE2D8AA929E1ADF2007FBACC /* TabBarViewController.swift in Sources */,
 				463AB00A29F5BB0D008CB075 /* FavoritesTableViewCell.swift in Sources */,
 				38C581A529E6F48D00941E5C /* CharactersWorker.swift in Sources */,
