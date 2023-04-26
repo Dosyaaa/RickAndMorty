@@ -37,6 +37,14 @@ class TabBarViewController: UITabBarController {
             selectedImage: UIImage(systemName: "slider.horizontal.3")
         )
         
+        let characterViewController = CharactersViewController()
+        characterViewController.tabBarItem = itemPerson
+        let favoritesViewController = FavoritesViewController()
+        favoritesViewController.tabBarItem = itemSeries
+        let settingsViewController = FavoritesViewController()
+        settingsViewController.tabBarItem = itemSettings
+        
+        viewControllers = [characterViewController, favoritesViewController, settingsViewController]
     }
     
     func setTabBarAppearance() {
