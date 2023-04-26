@@ -17,8 +17,12 @@
 		0424ABB129F95B36009BD7DF /* Extentions + ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424ABB029F95B36009BD7DF /* Extentions + ForgotPassword.swift */; };
 		0424ABB429F95B5B009BD7DF /* Extentions + RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424ABB329F95B5B009BD7DF /* Extentions + RegisterViewController.swift */; };
 		0424ABB629F95CC4009BD7DF /* GoogleService-Info-5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0424ABB529F95CC4009BD7DF /* GoogleService-Info-5.plist */; };
-		38AABF2C29F95F1100883A4F /* Settings in Resources */ = {isa = PBXBuildFile; fileRef = 38AABF2B29F95F1100883A4F /* Settings */; };
 		38AABF2E29F9640100883A4F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AABF2D29F9640100883A4F /* Colors.swift */; };
+		38AABF3029F9655900883A4F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AABF2F29F9655900883A4F /* SettingsViewController.swift */; };
+		38AABF3729F965A500883A4F /* SettingsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AABF3629F9657100883A4F /* SettingsInfo.swift */; };
+		38AABF3829F965B100883A4F /* PersonInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AABF3229F9656D00883A4F /* PersonInfoTableViewCell.swift */; };
+		38AABF3929F965B300883A4F /* AppearanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AABF3329F9656D00883A4F /* AppearanceTableViewCell.swift */; };
+		38AABF3A29F965B500883A4F /* DefaultTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AABF3429F9656D00883A4F /* DefaultTextField.swift */; };
 		38C581A129E6F47100941E5C /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C581A029E6F47100941E5C /* NetworkClient.swift */; };
 		38C581A329E6F47F00941E5C /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C581A229E6F47F00941E5C /* Character.swift */; };
 		38C581A529E6F48D00941E5C /* CharactersWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C581A429E6F48D00941E5C /* CharactersWorker.swift */; };
@@ -46,8 +50,12 @@
 		0424ABB029F95B36009BD7DF /* Extentions + ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extentions + ForgotPassword.swift"; sourceTree = "<group>"; };
 		0424ABB329F95B5B009BD7DF /* Extentions + RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extentions + RegisterViewController.swift"; sourceTree = "<group>"; };
 		0424ABB529F95CC4009BD7DF /* GoogleService-Info-5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-5.plist"; sourceTree = "<group>"; };
-		38AABF2B29F95F1100883A4F /* Settings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Settings; path = RickAndMorty/Settings; sourceTree = SOURCE_ROOT; };
 		38AABF2D29F9640100883A4F /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		38AABF2F29F9655900883A4F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		38AABF3229F9656D00883A4F /* PersonInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoTableViewCell.swift; sourceTree = "<group>"; };
+		38AABF3329F9656D00883A4F /* AppearanceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceTableViewCell.swift; sourceTree = "<group>"; };
+		38AABF3429F9656D00883A4F /* DefaultTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTextField.swift; sourceTree = "<group>"; };
+		38AABF3629F9657100883A4F /* SettingsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsInfo.swift; sourceTree = "<group>"; };
 		38C581A029E6F47100941E5C /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		38C581A229E6F47F00941E5C /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		38C581A429E6F48D00941E5C /* CharactersWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersWorker.swift; sourceTree = "<group>"; };
@@ -102,9 +110,14 @@
 				CE2D8AA829E1ADF2007FBACC /* TabBarViewController.swift */,
 				0424ABA329F95AA4009BD7DF /* ViewController.swift */,
 				0424ABA529F95AB3009BD7DF /* RegisterViewController.swift */,
+				38AABF3229F9656D00883A4F /* PersonInfoTableViewCell.swift */,
+				38AABF3429F9656D00883A4F /* DefaultTextField.swift */,
+				38AABF3329F9656D00883A4F /* AppearanceTableViewCell.swift */,
 				0424ABA729F95ABE009BD7DF /* ForgotPasswordViewController.swift */,
 				A65E29C229E9BADA00CE8BD9 /* UIColorTabBar.swift */,
 				CEE1874029F95AC800249467 /* CharactersViewController.swift */,
+				38AABF2F29F9655900883A4F /* SettingsViewController.swift */,
+				38AABF3629F9657100883A4F /* SettingsInfo.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -196,7 +209,6 @@
 				38DD7D2129F418BA002EA375 /* Extensions.swift */,
 				0424ABAA29F95AD5009BD7DF /* Constants */,
 				38C5819F29E6F16E00941E5C /* Services */,
-				38AABF2B29F95F1100883A4F /* Settings */,
 				38C5819E29E6F16000941E5C /* Models */,
 				38C5819D29E6F15300941E5C /* Workers */,
 				38C5819C29E6F14B00941E5C /* Scenes */,
@@ -266,7 +278,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE2D8AB129E1ADF5007FBACC /* LaunchScreen.storyboard in Resources */,
-				38AABF2C29F95F1100883A4F /* Settings in Resources */,
 				0424ABB629F95CC4009BD7DF /* GoogleService-Info-5.plist in Resources */,
 				CE2D8AAE29E1ADF5007FBACC /* Assets.xcassets in Resources */,
 			);
@@ -280,7 +291,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE1874329F95B1100249467 /* CollectionViewCell.swift in Sources */,
+				38AABF3829F965B100883A4F /* PersonInfoTableViewCell.swift in Sources */,
 				38AABF2E29F9640100883A4F /* Colors.swift in Sources */,
+				38AABF3729F965A500883A4F /* SettingsInfo.swift in Sources */,
 				CE2D8AA929E1ADF2007FBACC /* TabBarViewController.swift in Sources */,
 				463AB00A29F5BB0D008CB075 /* FavoritesTableViewCell.swift in Sources */,
 				38C581A529E6F48D00941E5C /* CharactersWorker.swift in Sources */,
@@ -290,10 +303,13 @@
 				0424ABA629F95AB3009BD7DF /* RegisterViewController.swift in Sources */,
 				CE2D8AA529E1ADF2007FBACC /* AppDelegate.swift in Sources */,
 				0424ABA429F95AA4009BD7DF /* ViewController.swift in Sources */,
+				38AABF3A29F965B500883A4F /* DefaultTextField.swift in Sources */,
 				0424ABB429F95B5B009BD7DF /* Extentions + RegisterViewController.swift in Sources */,
 				0424ABA029F95A6F009BD7DF /* Episodes.swift in Sources */,
+				38AABF3929F965B300883A4F /* AppearanceTableViewCell.swift in Sources */,
 				38DD7D2229F418BA002EA375 /* Extensions.swift in Sources */,
 				A65E29C329E9BADA00CE8BD9 /* UIColorTabBar.swift in Sources */,
+				38AABF3029F9655900883A4F /* SettingsViewController.swift in Sources */,
 				38C581A329E6F47F00941E5C /* Character.swift in Sources */,
 				0424ABA829F95ABE009BD7DF /* ForgotPasswordViewController.swift in Sources */,
 				0424ABAC29F95AF7009BD7DF /* Constants.swift in Sources */,

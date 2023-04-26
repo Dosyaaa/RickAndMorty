@@ -41,7 +41,7 @@ class TabBarViewController: UITabBarController {
         characterViewController.tabBarItem = itemPerson
         let favoritesViewController = FavoritesViewController()
         favoritesViewController.tabBarItem = itemSeries
-        let settingsViewController = FavoritesViewController()
+        let settingsViewController = SettingsViewController()
         settingsViewController.tabBarItem = itemSettings
         
         viewControllers = [characterViewController, favoritesViewController, settingsViewController]
