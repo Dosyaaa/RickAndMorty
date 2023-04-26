@@ -18,7 +18,7 @@ let labelPasswordd = UILabel()
 
 let bt = buttonRegister.frame
 
-extension ViewController {
+extension UIViewController {
     
     func viewForViewController() {
         view.addSubview(passwordTF)
@@ -83,7 +83,7 @@ extension ViewController {
     }
 }
 
-extension ViewController {
+extension UIViewController {
     func viewsButton () {
         
         view.addSubview(buttonSignIn)

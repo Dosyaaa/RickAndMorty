@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CharactersViewController: UIViewController {
     lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         let view = UICollectionView(frame: CGRect(x: 0, y: 90, width: self.view.frame.width, height:self.view.frame.height), collectionViewLayout: layout)
@@ -68,7 +68,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController: UICollectionViewDataSource {
+extension CharactersViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
          let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CollectionViewCell.id, for: indexPath) as! CollectionViewCell
          let model = array[indexPath.row]
@@ -77,7 +77,7 @@ extension ViewController: UICollectionViewDataSource {
      }
  }
 
- extension ViewController: UICollectionViewDelegateFlowLayout {
+ extension CharactersViewController: UICollectionViewDelegateFlowLayout {
      func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
          CGSize(width: 170, height: 150)
     }
@@ -86,7 +86,7 @@ extension ViewController: UICollectionViewDataSource {
     }
 }
 
-extension ViewController: UISearchBarDelegate {
+extension CharactersViewController: UISearchBarDelegate {
     func beginSearching(_ searchBar: UISearchBar) {
         print("Beginning searching")
     }

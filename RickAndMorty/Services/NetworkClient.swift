@@ -15,17 +15,17 @@ class NetworkLayer {
     }
     private var baseURL = URL(string: "ds")
     
-    func fetch(with data: Data, completion: @escaping (Result<String,Error>) -> Void) {
-        let request = URLRequest(url: baseURL!)
-        
-        URLSession.shared.dataTask(with: request) { data, response, error in
-            if let error {
-                completion(.failure(error))
-            }
-            if data != nil {
-                completion(.success("Got data"))
-            }
-        }
-        .resume()
-    }
+//    func fetch(with data: Data, completion: @escaping (Result<String,Error>) -> Void) {
+//        let request = URLRequest(url: baseURL!)
+//        
+//        URLSession.shared.dataTask(with: request) { data, response, error in
+//            if let error {
+//                completion(.failure(error))
+//            }
+//            if data != nil {
+//                completion(.success("Got data"))
+//            }
+//        }
+//        .resume()
+//    }
 }

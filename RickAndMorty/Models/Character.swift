@@ -48,5 +48,7 @@ struct Location: Codable {
 }
 // MARK: - END
 
-
+struct Characters {
+    let name: String
+}
 
