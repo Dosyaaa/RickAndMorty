@@ -17,6 +17,7 @@
 		0424ABB129F95B36009BD7DF /* Extentions + ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424ABB029F95B36009BD7DF /* Extentions + ForgotPassword.swift */; };
 		0424ABB429F95B5B009BD7DF /* Extentions + RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424ABB329F95B5B009BD7DF /* Extentions + RegisterViewController.swift */; };
 		0424ABB629F95CC4009BD7DF /* GoogleService-Info-5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0424ABB529F95CC4009BD7DF /* GoogleService-Info-5.plist */; };
+		38AABF2C29F95F1100883A4F /* Settings in Resources */ = {isa = PBXBuildFile; fileRef = 38AABF2B29F95F1100883A4F /* Settings */; };
 		38C581A129E6F47100941E5C /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C581A029E6F47100941E5C /* NetworkClient.swift */; };
 		38C581A329E6F47F00941E5C /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C581A229E6F47F00941E5C /* Character.swift */; };
 		38C581A529E6F48D00941E5C /* CharactersWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C581A429E6F48D00941E5C /* CharactersWorker.swift */; };
@@ -44,6 +45,7 @@
 		0424ABB029F95B36009BD7DF /* Extentions + ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extentions + ForgotPassword.swift"; sourceTree = "<group>"; };
 		0424ABB329F95B5B009BD7DF /* Extentions + RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extentions + RegisterViewController.swift"; sourceTree = "<group>"; };
 		0424ABB529F95CC4009BD7DF /* GoogleService-Info-5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-5.plist"; sourceTree = "<group>"; };
+		38AABF2B29F95F1100883A4F /* Settings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Settings; path = RickAndMorty/Settings; sourceTree = SOURCE_ROOT; };
 		38C581A029E6F47100941E5C /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		38C581A229E6F47F00941E5C /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		38C581A429E6F48D00941E5C /* CharactersWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersWorker.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				38DD7D2129F418BA002EA375 /* Extensions.swift */,
 				0424ABAA29F95AD5009BD7DF /* Constants */,
 				38C5819F29E6F16E00941E5C /* Services */,
+				38AABF2B29F95F1100883A4F /* Settings */,
 				38C5819E29E6F16000941E5C /* Models */,
 				38C5819D29E6F15300941E5C /* Workers */,
 				38C5819C29E6F14B00941E5C /* Scenes */,
@@ -259,8 +262,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38AABF2A29F95E7D00883A4F /* Settings in Resources */,
 				CE2D8AB129E1ADF5007FBACC /* LaunchScreen.storyboard in Resources */,
+				38AABF2C29F95F1100883A4F /* Settings in Resources */,
 				0424ABB629F95CC4009BD7DF /* GoogleService-Info-5.plist in Resources */,
 				CE2D8AAE29E1ADF5007FBACC /* Assets.xcassets in Resources */,
 			);
