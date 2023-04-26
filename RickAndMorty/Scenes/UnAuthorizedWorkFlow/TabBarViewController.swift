@@ -18,6 +18,9 @@ class TabBarViewController: UITabBarController {
         
         setTabBarAppearance()
         
+        let iconPerson = SeasonsViewController()
+        let iconSeries = SeriesViewController()
+        let iconSettings = informationViewController()
         
         let itemPerson = UITabBarItem(
             title: "Characters",
@@ -37,6 +40,17 @@ class TabBarViewController: UITabBarController {
             selectedImage: UIImage(systemName: "slider.horizontal.3")
         )
         
+        iconPerson.tabBarItem = itemPerson
+        iconSeries.tabBarItem = itemSeries
+        iconSettings.tabBarItem = itemSettings
+        
+        let controllers = [
+            iconPerson,
+            iconSeries,
+            iconSettings
+        ]
+        
+        self.viewControllers = controllers
     }
     
     func setTabBarAppearance() {

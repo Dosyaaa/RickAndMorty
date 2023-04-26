@@ -60,8 +60,6 @@
 		38C5819C29E6F14B00941E5C /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				CE2D8AA829E1ADF2007FBACC /* TabBarViewController.swift */,
-				A65E29C229E9BADA00CE8BD9 /* UIColorTabBar.swift */,
 				A65E2B1D29F95A8300CE8BD9 /* UnAuthorizedWorkFlow */,
 				A65E2B1C29F959D000CE8BD9 /* AuthorizrdWorkkFlow */,
 			);
@@ -123,6 +121,8 @@
 		A65E2B1D29F95A8300CE8BD9 /* UnAuthorizedWorkFlow */ = {
 			isa = PBXGroup;
 			children = (
+				CE2D8AA829E1ADF2007FBACC /* TabBarViewController.swift */,
+				A65E29C229E9BADA00CE8BD9 /* UIColorTabBar.swift */,
 			);
 			path = UnAuthorizedWorkFlow;
 			sourceTree = "<group>";
